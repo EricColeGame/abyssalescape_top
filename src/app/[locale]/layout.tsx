@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "Abyssal Escape Wiki", template: "%s" },
+    title: { default: siteConfig.name, template: "%s" },
     description: "Abyssal Escape survivor guides, killer abilities, red mist objectives, escape tips, and alpha updates.",
     manifest: "/manifest.json",
     icons: {
@@ -35,8 +35,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: {
+      type: "website",
+      locale,
+      url: `${siteUrl}/${locale}`,
+      siteName: siteConfig.name,
+      title: siteConfig.name,
+      description: "Abyssal Escape survivor guides, killer abilities, red mist objectives, escape tips, and alpha updates.",
+      images: [{ url: image, width: 768, height: 432, alt: "Abyssal Escape gameplay preview" }],
+    },
+    twitter: { card: "summary_large_image", title: siteConfig.name, description: "Abyssal Escape survivor guides, killer abilities, red mist objectives, escape tips, and alpha updates.", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -49,10 +57,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: siteConfig.name,
-    url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}/images/hero.webp`,
+    "name": siteConfig.name,
+    "url": siteUrl,
+    "logo": `${siteUrl}/android-chrome-512x512.png`,
+    "image": `${siteUrl}/images/hero.webp`,
+    "description": siteConfig.description,
+    "sameAs": [siteConfig.gameUrl, siteConfig.social?.discord, siteConfig.social?.youtube].filter(Boolean),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
