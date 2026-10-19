@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.gg/abyssalescape",
     youtube: "https://www.youtube.com/@AbyssalEscape",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt-BR", "de"],
   defaultLocale: "en",
 };

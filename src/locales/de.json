@@ -1,1 +1,444 @@
-{}
+{
+  "site": {
+    "name": "Abyssal Escape Wiki",
+    "shortName": "Abyssal Escape",
+    "tagline": "Überlebenden-Guides, Killerfähigkeiten und Fluchttipps",
+    "description": "Entdecken Sie Abyssal Escape, das asymmetrische Roblox-Horrorspiel. Lernen Sie Überlebensstrategien, Killerfähigkeiten, Ziele im roten Nebel und Fluchttaktiken.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Nicht mit Roblox oder den Abyssal Escape-Entwicklern verbunden."
+  },
+  "nav": {
+    "characters": "Charaktere",
+    "guide": "Leitfaden",
+    "mechanics": "Mechaniken",
+    "community": "Community",
+    "updates": "Updates",
+    "reviews": "Rezensionen"
+  },
+  "home": {
+    "meta": {
+      "title": "Abyssal Escape Wiki – Leitfäden, Killer und Überlebende",
+      "description": "Entdecken Sie das Abyssal Escape Wiki mit Roblox-Horrorspiel-Guides, Überlebensstrategien, Killerfähigkeiten, Zielen im roten Nebel, Fluchttipps und Alpha-Updates."
+    },
+    "hero": {
+      "eyebrow": "Asymmetrisches Horror-Überleben",
+      "title": "Abyssal Escape Wiki",
+      "description": "Entdecken Sie Abyssal Escape, das asymmetrische Roblox-Horrorspiel. Erfahren Sie Überlebensstrategien, Killerfähigkeiten, Ziele im roten Nebel, Fluchttaktiken und die neuesten Alpha-Updates.",
+      "stats": [
+        "Erscheinungsdatum: 17. Oktober 2026",
+        "Plattform: Roblox",
+        "Genre: Asymmetrischer Horror",
+        "Status: Alpha"
+      ],
+      "primaryCta": "Anfängerleitfaden",
+      "secondaryCta": "Spielen Sie auf Roblox",
+      "tertiaryCta": "Killerfähigkeiten",
+      "videoLabel": "Offizielles Gameplay"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Durchsuchen Sie alle Leitfäden",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Beginnen Sie hier",
+      "title": "Deine Reise durch Abyssal Escape",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Anfängerleitfaden",
+          "description": "Erfahren Sie, wie Überlebende roten Nebel beseitigen, wie Killer Ziele unterbrechen und warum der Fluchtring jede Runde entscheidet."
+        },
+        {
+          "number": "2",
+          "title": "Bester Starter-Killer",
+          "description": "Lesen Sie den Auswahlbildschirm, wählen Sie einen nachsichtigen Verfolgungsjagd-Archetyp und entwickeln Sie mit 2011x oder einem anderen unkomplizierten Killer starke Gewohnheiten."
+        },
+        {
+          "number": "3",
+          "title": "Alle Fähigkeiten",
+          "description": "Vergleichen Sie Mobilitäts-, Tarn-, Unterstützungs-, Ziel- und Störungswerkzeuge und kombinieren Sie dann zwei Fähigkeiten, die die Schwächen des anderen abdecken."
+        },
+        {
+          "number": "4",
+          "title": "Timing der Killerphase",
+          "description": "Rotieren Sie vor den acht- und sechsminütigen Leistungsspitzen und sparen Sie dann eine Mobilitätsladung für den letzten 60-sekündigen Ring-Sprint."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Jetzt im Trend",
+      "quickLinks": [
+        "Anfängerleitfaden",
+        "Killerliste",
+        "Fähigkeitsrollen",
+        "Tipps für Fluchtringe"
+      ],
+      "cards": []
+    },
+    "aboutGame": {
+      "title": "Was ist Abyssal Escape?",
+      "paragraphs": [
+        "Abyssal Escape ist ein asymmetrisches Roblox-Horrorspiel, in dem ein Team anpassbarer Überlebender gegen einen einzelnen Killer arbeitet. Überlebende verteilen roten Nebel über die Karte, um den Fluchttimer zu verkürzen, während der Killer einen dreistufigen Evolutionspfad und rollenspezifische Fähigkeiten nutzt, um diese Arbeit zu unterbrechen, bevor der Fluchtring erscheint.",
+        "Jedes Gefäß der Überlebenden kombiniert sein Aussehen mit einer Ausstattung aus zwei Fähigkeiten, die durch in Prüfungen verdiente Ringe freigeschaltet wird. Die Runden laufen mit einem Zehn-Minuten-Timer: Nebelknoten entfernen etwa 40 bis 50 Sekunden, Killer-Kraftspitzen treten bei etwa acht und sechs verbleibenden Minuten auf, und der hervorgehobene Fluchtring öffnet in der letzten Minute die einzige Siegbedingung für die Überlebenden."
+      ],
+      "stats": [
+        {
+          "label": "Plattform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Asymmetrischer Horror"
+        },
+        {
+          "label": "Status",
+          "value": "Alpha"
+        },
+        {
+          "label": "Erscheinungsdatum",
+          "value": "17. Okt. 2026"
+        },
+        {
+          "label": "Match-Format",
+          "value": "1 gegen alle"
+        },
+        {
+          "label": "Runden-Timer",
+          "value": "10 Minuten"
+        }
+      ],
+      "cta": "Lesen Sie den Anfängerleitfaden"
+    },
+    "explore": {
+      "title": "Entdecken Sie das Abyssal Escape-Wiki",
+      "description": "Planen Sie Ihre erste Flucht mit den Abyssal Escape-Guides zur Einsteigerrunde, zum Killer-Kader, zu den Loadouts der Überlebenden, zu den Routen durch den roten Nebel und zu Alpha-Updates.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Anfängerleitfaden für Abyssal Escape",
+          "description": "Lernen Sie vor Ihrem ersten Spiel die Kernrundenschleife, die Rollen des Überlebenden und des Killers, die Ziele des Roten Nebels und die Mechanik des Fluchttimers.",
+          "href": "/guide/abyssal-escape-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Bauen Sie einen Überlebenden um eine klare Rolle herum auf und nutzen Sie den zweiten Fähigkeitsplatz, um eine andere Schwachstelle abzudecken."
+            },
+            {
+              "label": "2",
+              "detail": "Zerstreue den roten Nebel, um die Fluchtzeit zu verkürzen. Verborgen zu bleiben, bewegt die Uhr nicht."
+            },
+            {
+              "label": "3",
+              "detail": "Bevor Sie eine Interaktion durchführen, wählen Sie den Fluchtweg aus, den Sie nehmen möchten, wenn der Killer eintrifft."
+            },
+            {
+              "label": "4",
+              "detail": "Behandeln Sie die letzte Minute als Zeit für den Ring: Stoppen Sie die Nebelarbeit und begeben Sie sich auf den markierten Fluchtweg."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Killer von Abyssal Escape",
+          "description": "Vergleichen Sie die Startaufstellung der Killer, ihre charakteristischen Bedrohungen, Entwicklungsphasen und den Spielstil, den jeder einzelne belohnt.",
+          "href": "/characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "2011x",
+              "detail": "Geradliniger Verfolgungsdruck mit einer kraftvollen Skalierungskurve in der Spätphase."
+            },
+            {
+              "label": "Furnace",
+              "detail": "Hitzebetriebene Flammenwerfer und Triebwerke, Flugkontrollraum und Korridore."
+            },
+            {
+              "label": "Deity",
+              "detail": "Ringfallen, Täuschkörper und Phase-3-Flug belohnen sorgfältiges Kartenlesen."
+            },
+            {
+              "label": "Fleetway",
+              "detail": "Lufterkennung und weitreichender Laserdruck bestrafen offene Fluchtwege."
+            },
+            {
+              "label": "Innocence",
+              "detail": "Ein transformierender, sprintlastiger Moveset setzt Überlebende nach dem Wechsel zur Rundenmitte unter Druck."
+            },
+            {
+              "label": "2017X",
+              "detail": "Eine Bestienform der Phase 3 fügt einem bereits aggressiven Set schweren Slam-Schaden hinzu."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Überlebenden-Guide für Abyssal Escape",
+          "description": "Behandeln Sie die Anpassung der Überlebenden, Zwei-Fähigkeits-Loadouts, Teamwork, Nebelrouten und den letzten Fluchtring.",
+          "href": "/guide/abyssal-escape-survivor-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Erstelle ein individuelles Gefäß und rüste es mit zwei Fähigkeiten aus; kombiniere eine Fluchtfähigkeit mit einer Teamfähigkeit."
+            },
+            {
+              "label": "2",
+              "detail": "Erkunden Sie Nebelpaare in Paaren, sodass ein Spieler die Einflugschneise beobachten kann, während der andere sie räumt."
+            },
+            {
+              "label": "3",
+              "detail": "Drehen Sie sich von der letzten bekannten Position des Killers weg und beenden Sie begonnene Knoten, bevor Sie neue öffnen."
+            },
+            {
+              "label": "4",
+              "detail": "Sparen Sie sich die Mobilität für den letzten Ring-Sprint und betrachten Sie die Zwei-Minuten-Marke als Ihre Soft-Rotation-Frist."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Killer-Stufenliste für Abyssal Escape",
+          "description": "Eine auf Einsteiger ausgerichtete Rangliste der Killer-Archetypen nach Erlernbarkeit, Verfolgungszuverlässigkeit und Wiederherstellung nach Fehlern.",
+          "href": "/guide/abyssal-escape-best-starter-killer",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Einfache Chase-Kits vermitteln Loops, Timing und Engagement mit den wenigsten beweglichen Teilen."
+            },
+            {
+              "label": "A",
+              "detail": "Area-Control-Kits verzeihen unvollkommenes Zielen und belohnen beständigen Kartendruck."
+            },
+            {
+              "label": "B",
+              "detail": "Hinterhalt- und Stealth-Kits belohnen Geduld, bestrafen aber Früherkennung und verpasste Einrichtung."
+            },
+            {
+              "label": "C",
+              "detail": "Mehrphasen- und Setup-intensive Bausätze erfordern Timing- und Kartenkenntnisse, bevor sie sich zuverlässig anfühlen."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Abyssal Escape-Codes",
+          "description": "Überprüfen Sie den Status des Einlösungscodes und erfahren Sie, wo während der Alpha offizielle Abyssal Escape-Prämien angekündigt werden.",
+          "href": "/guide",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Status",
+              "detail": "Für die aktuelle Alpha ist keine öffentliche Liste mit Einlösungscodes dokumentiert."
+            },
+            {
+              "label": "Codes",
+              "detail": "Verwenden Sie den offiziellen Abyssal Escape-Social-Account und die Discord-Ankündigungen als Quelle für zukünftige Codes."
+            },
+            {
+              "label": "Belohnungen",
+              "detail": "Bestätigen Sie alle angekündigten Belohnungen im Live-Spiel, bevor Sie eine Drittanbieterliste als aktiv behandeln."
+            },
+            {
+              "label": "Einlösen",
+              "detail": "Wenn ein Codesystem angekündigt wird, befolgen Sie die Anweisungen zum Einlösen im Spiel, die den Spielern angezeigt werden."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Fähigkeiten in Abyssal Escape",
+          "description": "Verstehen Sie die Rollen der Überlebendenfähigkeiten, die Regeln für die Zwei-Slot-Ausrüstung, die Abklingzeitdisziplin und die Teamzusammensetzung.",
+          "href": "/mechanics/abyssal-escape-abilities",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Mobilität",
+              "detail": "Verkürzen Sie die Distanz, unterbrechen Sie eine Verfolgungsjagd oder erreichen Sie den Fluchtring, bevor der Timer abläuft."
+            },
+            {
+              "label": "Heimlichkeit",
+              "detail": "Reduzieren Sie die Erkennung und positionieren Sie sich leise neu, während das Team am roten Nebel arbeitet."
+            },
+            {
+              "label": "Unterstützung",
+              "detail": "Heilen Sie schneller, erholen Sie sich wieder, schützen Sie sich oder teilen Sie Ressourcen, wenn das Team zusammenbleibt."
+            },
+            {
+              "label": "Ziel",
+              "detail": "Beschleunigen Sie Interaktionen und helfen Sie dem Team, Nebelarbeiten unter Zeitdruck abzuschließen."
+            },
+            {
+              "label": "Stören",
+              "detail": "Verwenden Sie Täuschkörper, Lärm oder vorübergehende Blockaden, um Druck von einem Teamkollegen zu nehmen."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Updates zu Abyssal Escape",
+          "description": "Verfolgen Sie Alpha-Ankündigungen, neue Inhalte, Balance-Änderungen, Korrekturen und die Kanäle, auf denen jedes Update erscheint.",
+          "href": "/updates/abyssal-escape-latest-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Offiziell",
+              "detail": "Folgen Sie dem offiziellen Konto für Clips, angeheftete Hinweise und kurze Patch-Ankündigungen."
+            },
+            {
+              "label": "Discord",
+              "detail": "Weitere Erklärungen und bekannte Probleme finden Sie in den Ankündigungs- und Fehlerkanälen."
+            },
+            {
+              "label": "Neustart",
+              "detail": "Schließen Sie das Roblox-Erlebnis nach einem Update und öffnen Sie es erneut, um eine veraltete Sitzung auszuschließen."
+            },
+            {
+              "label": "Überprüfen",
+              "detail": "Testen Sie die Überschriftenänderung in einer kurzen Sitzung, bevor Sie sich auf einen Community-Bericht verlassen."
+            },
+            {
+              "label": "Notizen",
+              "detail": "Notieren Sie, was sich wann geändert hat, damit spätere Balancedurchläufe die Zeitleiste nicht verwischen."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Tipps und Strategien für Abyssal Escape",
+          "description": "Wenden Sie praktische Ratschläge für Überlebende und Killer zur Nebelführung, zum Timing der Verfolgungsjagden, zur Ausrüstung und zum letzten Fluchtring an.",
+          "href": "/guide/abyssal-escape-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Scout",
+              "detail": "Verbringen Sie die ersten Sekunden damit, Nebelwolken zu lokalisieren, bevor Sie sich auf eine Route festlegen."
+            },
+            {
+              "label": "Koppeln Sie",
+              "detail": "Löschen Sie Knoten paarweise, damit ein Überlebender die Einflugschneise beobachten kann."
+            },
+            {
+              "label": "Fertig",
+              "detail": "Ein teilweiser Nebelknoten nimmt keine Zeit in Anspruch, also kehren Sie zurück, um zu Ende zu bringen, was Sie begonnen haben."
+            },
+            {
+              "label": "Drehen",
+              "detail": "Entfernen Sie sich von der letzten bekannten Position des Killers, anstatt nahe gelegene Knotenpunkte zu räumen."
+            },
+            {
+              "label": "Klingeln",
+              "detail": "Wenn noch eine Minute verbleibt, geben Sie die Nebelarbeit auf und lassen Sie den hervorgehobenen Fluchtring laufen."
+            },
+            {
+              "label": "Ausdauer",
+              "detail": "Laufen regeneriert die Ausdauer; Fähigkeitsaktivierungen und Manöver sind die tatsächlichen Kosten."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Abyssal Escape FAQ",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Abyssal Escape.",
+      "items": [
+        {
+          "question": "Was ist Abyssal Escape?",
+          "answer": "Abyssal Escape ist ein asymmetrisches Roblox-Horrorspiel, in dem anpassbare Überlebende gegen einen Killer zusammenarbeiten. Die Überlebenden vertreiben roten Nebel, um die Fluchtzeit zu verkürzen, während der Killer drei Phasen durchläuft und versucht, sie aufzuhalten, bevor sich der Fluchtring öffnet."
+        },
+        {
+          "question": "Was machen Überlebende in Abyssal Escape?",
+          "answer": "Überlebende erkunden die Karte, löschen paarweise rote Nebelknoten und drehen sich vom Killer weg. Jeder vollständig gelöschte Knoten verkürzt den Abyssal Escape-Rundtakt um etwa 40 bis 50 Sekunden."
+        },
+        {
+          "question": "Wie lange dauert ein Abyssal Escape-Match?",
+          "answer": "Eine Abyssal Escape-Runde beginnt mit einem Zehn-Minuten-Timer. Ungefähr acht bis sechs Minuten vor Schluss treffen tödliche Energiespitzen ein, und in der letzten Minute erscheint der Fluchtring."
+        },
+        {
+          "question": "Wie viele Fähigkeiten kann ein Überlebender in Abyssal Escape ausrüsten?",
+          "answer": "Ein Gefäß der Überlebenden in Abyssal Escape kann zwei Fähigkeiten ausrüsten, die durch in Prüfungen verdiente Ringe freigeschaltet werden. Das Ausrüsten von zwei auf Betäubung ausgerichteten Fähigkeiten verkürzt die Betäubungsdauer beider um 50 Prozent, sodass die meisten Builds eine Betäubung mit Mobilität oder Nützlichkeit kombinieren."
+        },
+        {
+          "question": "Wann erscheint der Fluchtring in Abyssal Escape?",
+          "answer": "Der hervorgehobene Escape-Ring erscheint 60 Sekunden vor dem Ende in Abyssal Escape. Überlebende sollten an diesem Punkt aufhören, den Nebel zu beseitigen, und sich auf den Ring festlegen, da das Betreten des Rings die einzige Siegbedingung für Überlebende ist."
+        },
+        {
+          "question": "Wie entwickeln sich Killer in Abyssal Escape?",
+          "answer": "Abyssal Escape Killers erreichen ihren ersten großen Leistungsschub etwa acht Minuten vor Schluss und erreichen Phase 3 etwa sechs Minuten vor Schluss. In diesen Phasen können verbesserte Verfolgungswerkzeuge, Geschwindigkeitssteigerungen, Flugbewegungen oder komplette Moveset-Transformationen hinzugefügt werden."
+        },
+        {
+          "question": "Verfügt Abyssal Escape über Einlösecodes?",
+          "answer": "Für die aktuelle Alpha ist keine öffentliche Abyssal Escape-Einlösungscodeliste dokumentiert. Überprüfen Sie das offizielle Abyssal Escape-Social-Account und die Discord-Ankündigungen auf zukünftige Codesysteme oder Belohnungsereignisse."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, dem Abgrund zu entkommen?",
+      "description": "Lernen Sie Überlebensstrategien, kontern Sie Killerfähigkeiten, vertreiben Sie den roten Nebel und erreichen Sie den Ausgang mit unseren kostenlosen Abyssal Escape-Anleitungen.",
+      "primary": "Lesen Sie den Anfängerleitfaden",
+      "secondary": "Spielen Sie auf Roblox"
+    }
+  },
+  "characters": {
+    "overviewTitle": "Charaktere in Abyssal Escape",
+    "overviewDescription": "Lernen Sie die Killerliste und die Gefäße der Überlebenden in Abyssal Escape kennen, mit Fähigkeitsrollen, Hinweisen zum Spielstil und praktischen Matchup-Tipps."
+  },
+  "guide": {
+    "overviewTitle": "Leitfaden zu Abyssal Escape",
+    "overviewDescription": "Beginnen Sie mit Tipps für Anfänger, exemplarischen Vorgehensweisen für Rollen, Fähigkeiten-Loadouts und praktischen Strategien für Überlebende und Killer."
+  },
+  "mechanics": {
+    "overviewTitle": "Mechaniken von Abyssal Escape",
+    "overviewDescription": "Erfahren Sie, wie roter Nebel, der Fluchttimer, Fähigkeiten, Gefäßanpassungen und Kartenebenen jede Runde verändern."
+  },
+  "community": {
+    "overviewTitle": "Community von Abyssal Escape",
+    "overviewDescription": "Hier finden Sie den Discord, Reddit, Spieltests und Community-Ressourcen zu Abyssal Escape für Spieler, die der Alpha folgen."
+  },
+  "updates": {
+    "overviewTitle": "Updates zu Abyssal Escape",
+    "overviewDescription": "Verfolgen Sie die Veröffentlichungsdaten von Abyssal Escape, Details zum frühen Zugriff und die neuesten Hinweise zum Alpha-Update."
+  },
+  "reviews": {
+    "overviewTitle": "Rezensionen zu Abyssal Escape",
+    "overviewDescription": "Lesen Sie Rezensionen zu Abyssal Escape, erste Eindrücke, Kritik und Spielerdiskussionen zum Roblox-Horrorspiel."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Updates anzeigen",
+    "playOnRoblox": "Spielen Sie auf Roblox",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchen Sie Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Leitfäden",
+    "readMore": "Lesen Sie mehr",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Anleitungen verfügbar. Schauen Sie bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Abyssal Escape Wiki",
+    "about": "Abyssal Escape Wiki ist ein unabhängiger, von Fans erstellter Leitfaden-Hub, der Überlebensstrategien, Killerfähigkeiten, Ziele im roten Nebel, Fluchtwege und Alpha-Updates für Roblox-Spieler behandelt.",
+    "quickLinks": "Quicklinks",
+    "guides": "Leitfäden",
+    "legal": "Rechtliches",
+    "copyright": "2026 Abyssal Escape Wiki. Nicht mit Roblox oder den Abyssal Escape-Entwicklern verbunden.",
+    "description": "Asymmetrisches Horror-Überleben in Roblox. Vertreibe den roten Nebel, überlebe den Killer und entkomme.",
+    "playGame": "Spielen Sie Abyssal Escape auf Roblox",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Abyssal Escape Wiki",
+    "beginnerGuide": "Anfängerleitfaden",
+    "raceGuides": "Überlebenden-Guides",
+    "bossGuides": "Killer-Guides",
+    "buildGuide": "Killerfähigkeiten",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}

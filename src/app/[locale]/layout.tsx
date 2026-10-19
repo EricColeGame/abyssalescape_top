@@ -9,10 +9,12 @@ import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
 import { JsonLd, SiteFooter, SiteHeader } from "@/components/site";
 import { routing } from "@/i18n/routing";
+import en from "@/locales/en.json";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://abyssalescape.top";
+type Messages = typeof en;
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -20,12 +22,13 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
+  const messages = (await getMessages({ locale })) as Messages;
   const image = `${siteUrl}/images/hero.webp`;
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: siteConfig.name, template: "%s" },
-    description: "Abyssal Escape survivor guides, killer abilities, red mist objectives, escape tips, and alpha updates.",
+    title: { default: messages.site.name, template: "%s" },
+    description: messages.site.description,
     manifest: "/manifest.json",
     icons: {
       icon: [
@@ -39,12 +42,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: "website",
       locale,
       url: `${siteUrl}/${locale}`,
-      siteName: siteConfig.name,
-      title: siteConfig.name,
-      description: "Abyssal Escape survivor guides, killer abilities, red mist objectives, escape tips, and alpha updates.",
+      siteName: messages.site.name,
+      title: messages.site.name,
+      description: messages.site.description,
       images: [{ url: image, width: 768, height: 432, alt: "Abyssal Escape gameplay preview" }],
     },
-    twitter: { card: "summary_large_image", title: siteConfig.name, description: "Abyssal Escape survivor guides, killer abilities, red mist objectives, escape tips, and alpha updates.", images: [image] },
+    twitter: { card: "summary_large_image", title: messages.site.name, description: messages.site.description, images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }

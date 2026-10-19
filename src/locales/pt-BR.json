@@ -1,1 +1,444 @@
-{}
+{
+  "site": {
+    "name": "Abyssal Escape Wiki",
+    "shortName": "Abyssal Escape",
+    "tagline": "Guias de sobreviventes, habilidades de assassino e dicas de fuga",
+    "description": "Explore Abyssal Escape, o jogo de terror assimétrico da Roblox. Aprenda estratégias de sobrevivência, habilidades de assassino, objetivos de névoa vermelha e táticas de fuga.",
+    "legalNotice": "Wiki de fãs não oficial. Não afiliada aos desenvolvedores da Roblox ou de Abyssal Escape."
+  },
+  "nav": {
+    "characters": "Personagens",
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "community": "Comunidade",
+    "updates": "Atualizações",
+    "reviews": "Análises"
+  },
+  "home": {
+    "meta": {
+      "title": "Abyssal Escape Wiki - Guias, Assassinos e Sobreviventes",
+      "description": "Explore Abyssal Escape Wiki para guias do jogo de terror da Roblox, estratégias de sobrevivência, habilidades de assassino, objetivos de névoa vermelha, dicas de fuga e atualizações alfa."
+    },
+    "hero": {
+      "eyebrow": "Sobrevivência ao terror assimétrico",
+      "title": "Abyssal Escape Wiki",
+      "description": "Explore Abyssal Escape, o jogo de terror assimétrico da Roblox. Aprenda estratégias de sobrevivência, habilidades de assassino, objetivos de névoa vermelha, táticas de fuga e as últimas atualizações alfa.",
+      "stats": [
+        "Data de lançamento: 17 de outubro de 2026",
+        "Plataforma: Roblox",
+        "Gênero: Terror Assimétrico",
+        "Status: Alfa"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Jogue em Roblox",
+      "tertiaryCta": "Habilidades de assassino",
+      "videoLabel": "Jogabilidade oficial"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Navegue por todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada por Abyssal Escape",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda como os Sobreviventes eliminam a névoa vermelha, como os Assassinos interrompem os objetivos e por que o anel de fuga decide cada rodada."
+        },
+        {
+          "number": "2",
+          "title": "Melhor Assassino Inicial",
+          "description": "Leia a tela de seleção, escolha um arquétipo de perseguição indulgente e construa hábitos fortes com 2011x ou outro Assassino direto."
+        },
+        {
+          "number": "3",
+          "title": "Todas as habilidades",
+          "description": "Compare ferramentas de mobilidade, furtividade, suporte, objetivo e interrupção e, em seguida, combine duas habilidades que cubram os pontos fracos um do outro."
+        },
+        {
+          "number": "4",
+          "title": "Tempo da Fase Assassina",
+          "description": "Gire antes dos picos de potência de oito e seis minutos e, em seguida, economize uma carga de mobilidade para o ring dash final de 60 segundos."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendências agora",
+      "quickLinks": [
+        "Guia para iniciantes",
+        "Lista de Assassinos",
+        "Funções de habilidade",
+        "Dicas para anéis de fuga"
+      ],
+      "cards": []
+    },
+    "aboutGame": {
+      "title": "O que é Abyssal Escape?",
+      "paragraphs": [
+        "Abyssal Escape é um jogo de terror assimétrico da Roblox no qual uma equipe de Sobreviventes personalizáveis trabalha contra um único Assassino. Os Sobreviventes dissipam a névoa vermelha pelo mapa para encurtar o tempo de fuga, enquanto o Assassino usa um caminho de evolução de três fases e habilidades específicas de função para interromper esse trabalho antes que o anel de fuga apareça.",
+        "Cada vaso de Sobrevivente combina aparência com um conjunto de duas habilidades desbloqueado por meio de anéis ganhos nas provas. As partidas acontecem em um relógio de dez minutos: os nós de névoa são removidos em aproximadamente 40 a 50 segundos, os picos de poder do Assassino chegam em torno das marcas de oito e seis minutos e o anel de fuga destacado abre a única condição de vitória dos Sobreviventes no minuto final."
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Terror Assimétrico"
+        },
+        {
+          "label": "Estado",
+          "value": "Alfa"
+        },
+        {
+          "label": "Data de lançamento",
+          "value": "17 de outubro de 2026"
+        },
+        {
+          "label": "Formato de correspondência",
+          "value": "1 contra todos"
+        },
+        {
+          "label": "Temporizador redondo",
+          "value": "10 minutos"
+        }
+      ],
+      "cta": "Leia o guia para iniciantes"
+    },
+    "explore": {
+      "title": "Explorar Abyssal Escape Wiki",
+      "description": "Planeje sua primeira fuga com os guias de Abyssal Escape sobre o ciclo inicial, a lista de assassinos, os conjuntos dos Sobreviventes, as rotas de névoa vermelha e as atualizações alfa.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para iniciantes de Abyssal Escape",
+          "description": "Aprenda o loop principal, as funções de Sobrevivente e Assassino, os objetivos da névoa vermelha e a mecânica do cronômetro de escape antes de sua primeira partida.",
+          "href": "/guide/abyssal-escape-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Construa um Sobrevivente em torno de uma função clara e use o segundo espaço de habilidade para cobrir uma fraqueza diferente."
+            },
+            {
+              "label": "2",
+              "detail": "Dissipe a névoa vermelha para encurtar o temporizador de fuga; ficar escondido não move o relógio."
+            },
+            {
+              "label": "3",
+              "detail": "Antes de realizar uma interação, escolha a rota de saída que você seguirá quando o Assassino chegar."
+            },
+            {
+              "label": "4",
+              "detail": "Trate o minuto final como a hora do anel: pare o trabalho de névoa e siga para a rota de fuga destacada."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Assassinos de Abyssal Escape",
+          "description": "Compare a lista inicial de Assassinos, suas ameaças características, fases de evolução e o estilo de jogo que cada um recompensa.",
+          "href": "/characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "2011x",
+              "detail": "Pressão de perseguição em linha reta com uma poderosa curva de escala de fase final."
+            },
+            {
+              "label": "Furnace",
+              "detail": "Lança-chamas movidos a calor e espaços e corredores de controle de voo de propulsores."
+            },
+            {
+              "label": "Deity",
+              "detail": "Armadilhas circulares, iscas e leituras cuidadosas do mapa de recompensa de voo da Fase 3."
+            },
+            {
+              "label": "Fleetway",
+              "detail": "A detecção aérea e a pressão do laser de longo alcance punem as rotas de fuga abertas."
+            },
+            {
+              "label": "Innocence",
+              "detail": "Um conjunto de movimentos transformador e pesado pressiona os Sobreviventes após a mudança no meio da rodada."
+            },
+            {
+              "label": "2017X",
+              "detail": "Uma forma de besta da Fase 3 adiciona dano pesado a um kit já agressivo."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia do Sobrevivente de Abyssal Escape",
+          "description": "Cubra a personalização dos Sobreviventes, os conjuntos de duas habilidades, o trabalho em equipe, as rotas de névoa e o anel de fuga final.",
+          "href": "/guide/abyssal-escape-survivor-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Crie um vaso personalizado e equipe duas habilidades; combine uma ferramenta de fuga com uma ferramenta de equipe."
+            },
+            {
+              "label": "2",
+              "detail": "A névoa Scout se agrupa em pares para que um jogador possa observar a pista de aproximação enquanto o outro se afasta."
+            },
+            {
+              "label": "3",
+              "detail": "Afaste-se da última posição conhecida do Assassino e termine os nós iniciados antes de abrir novos."
+            },
+            {
+              "label": "4",
+              "detail": "Economize mobilidade para o toque final e trate a marca de dois minutos como seu prazo de rotação suave."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Abyssal Escape Lista de níveis de assassino",
+          "description": "Uma classificação de arquétipos assassinos focada no iniciante por facilidade de aprendizado, confiabilidade de busca e recuperação de erros.",
+          "href": "/guide/abyssal-escape-best-starter-killer",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Kits de perseguição simples ensinam loops, tempo e comprometimento com o menor número de peças móveis."
+            },
+            {
+              "label": "A",
+              "detail": "Os kits de controle de área perdoam a mira imperfeita e recompensam a pressão consistente do mapa."
+            },
+            {
+              "label": "B",
+              "detail": "Os kits de emboscada e furtividade recompensam a paciência, mas punem a detecção precoce e a configuração perdida."
+            },
+            {
+              "label": "C",
+              "detail": "Kits multifásicos e de configuração pesada exigem conhecimento de tempo e mapa antes de parecerem confiáveis."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Códigos de Abyssal Escape",
+          "description": "Verifique o status do código de resgate e saiba onde as recompensas oficiais Abyssal Escape são anunciadas durante o alfa.",
+          "href": "/guide",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Estado",
+              "detail": "Nenhuma lista pública de códigos de resgate está documentada para o alfa atual."
+            },
+            {
+              "label": "Códigos",
+              "detail": "Use a conta social oficial de Abyssal Escape e os anúncios do Discord como fonte para códigos futuros."
+            },
+            {
+              "label": "Recompensas",
+              "detail": "Confirme qualquer recompensa anunciada no jogo ao vivo antes de tratar uma lista de terceiros como ativa."
+            },
+            {
+              "label": "Resgatar",
+              "detail": "Quando um sistema de código for anunciado, siga as instruções de resgate no jogo mostradas aos jogadores."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Habilidades de Abyssal Escape",
+          "description": "Entenda as funções das habilidades do Sobrevivente, regras de carregamento de dois slots, disciplina de resfriamento e composição da equipe.",
+          "href": "/mechanics/abyssal-escape-abilities",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Mobilidade",
+              "detail": "Aproxime-se, interrompa uma perseguição ou alcance o anel de fuga antes que o tempo expire."
+            },
+            {
+              "label": "Furtivo",
+              "detail": "Reduza a detecção e reposicione silenciosamente enquanto a equipe trabalha na névoa vermelha."
+            },
+            {
+              "label": "Suporte",
+              "detail": "Cure, reviva mais rápido, proteja ou compartilhe recursos quando a equipe permanecer unida."
+            },
+            {
+              "label": "Objetivo",
+              "detail": "Acelere as interações e ajude a equipe a concluir o trabalho sob pressão de tempo."
+            },
+            {
+              "label": "Perturbar",
+              "detail": "Use iscas, ruídos ou bloqueios temporários para aliviar a pressão de um companheiro de equipe."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Atualizações de Abyssal Escape",
+          "description": "Acompanhe anúncios alfa, novos conteúdos, alterações de equilíbrio, correções e os canais onde cada atualização aparece.",
+          "href": "/updates/abyssal-escape-latest-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Oficial",
+              "detail": "Siga a conta oficial para clipes, avisos fixados e anúncios curtos de patch."
+            },
+            {
+              "label": "Discord",
+              "detail": "Verifique os canais de anúncios e bugs para obter explicações mais longas e problemas conhecidos."
+            },
+            {
+              "label": "Reiniciar",
+              "detail": "Feche e reabra a experiência Roblox após uma atualização para descartar uma sessão obsoleta."
+            },
+            {
+              "label": "Verifique",
+              "detail": "Teste a mudança do título numa curta sessão antes de confiar num relatório da comunidade."
+            },
+            {
+              "label": "Notas",
+              "detail": "Registre o que mudou e quando o equilíbrio passar, não desfoque a linha do tempo."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Dicas e estratégias de Abyssal Escape",
+          "description": "Aplique conselhos práticos de Sobrevivente e Assassino para direcionamento de névoa, tempo de perseguição, carregamentos e o anel de fuga final.",
+          "href": "/guide/abyssal-escape-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Escoteiro",
+              "detail": "Passe os primeiros segundos localizando aglomerados de névoa antes de se comprometer com uma rota."
+            },
+            {
+              "label": "Emparelhar",
+              "detail": "Limpe os nós em pares para que um Sobrevivente possa observar a pista de aproximação."
+            },
+            {
+              "label": "Concluir",
+              "detail": "Um nó de névoa parcial não leva tempo, então volte para terminar o que começou."
+            },
+            {
+              "label": "Girar",
+              "detail": "Afaste-se da última posição conhecida do Assassino em vez de limpar os nós próximos."
+            },
+            {
+              "label": "Anel",
+              "detail": "Quando faltar um minuto, abandone o trabalho com névoa e execute o anel de escape destacado."
+            },
+            {
+              "label": "Vigor",
+              "detail": "Correr regenera a resistência; ativações e manobras de habilidades são os custos reais."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes de Abyssal Escape",
+      "description": "Respostas rápidas para as perguntas mais comuns sobre Abyssal Escape.",
+      "items": [
+        {
+          "question": "O que é Abyssal Escape?",
+          "answer": "Abyssal Escape é um jogo de terror assimétrico da Roblox onde Sobreviventes personalizáveis trabalham juntos contra um Assassino. Os Sobreviventes eliminam a névoa vermelha para encurtar o tempo de fuga, enquanto o Assassino evolui através de três fases e tenta detê-los antes que o anel de fuga se abra."
+        },
+        {
+          "question": "O que os sobreviventes fazem em Abyssal Escape?",
+          "answer": "Os Sobreviventes exploram o mapa, limpam os nós de névoa vermelha em pares e se afastam do Assassino. Cada nó totalmente limpo remove cerca de 40 a 50 segundos do relógio da rodada de Abyssal Escape."
+        },
+        {
+          "question": "Quanto tempo dura uma partida de Abyssal Escape?",
+          "answer": "Uma rodada Abyssal Escape começa com um cronômetro de dez minutos. Os picos de poder do assassino chegam cerca de oito e seis minutos restantes, e o anel de fuga aparece durante o minuto final."
+        },
+        {
+          "question": "Quantas habilidades um Sobrevivente pode equipar em Abyssal Escape?",
+          "answer": "Um vaso de Sobrevivente em Abyssal Escape pode equipar duas habilidades desbloqueadas com anéis ganhos nas provas. Equipar duas habilidades focadas no atordoamento reduz a duração do atordoamento de ambas em 50 por cento, então a maioria das construções combina um atordoamento com mobilidade ou utilidade."
+        },
+        {
+          "question": "Quando o anel de escape aparece em Abyssal Escape?",
+          "answer": "O anel de escape destacado aparece faltando 60 segundos para Abyssal Escape. Os sobreviventes devem parar de limpar a névoa nesse ponto e se comprometer com o ringue, porque entrar nele é a única condição de vitória do sobrevivente."
+        },
+        {
+          "question": "Como os Killers evoluem em Abyssal Escape?",
+          "answer": "Abyssal Escape Os assassinos ganham seu primeiro grande pico de poder cerca de oito minutos restantes e alcançam a Fase 3 cerca de seis minutos restantes. Essas fases podem adicionar ferramentas de perseguição atualizadas, aumento de velocidade, voo ou transformações completas de movimentos."
+        },
+        {
+          "question": "Abyssal Escape tem códigos de resgate?",
+          "answer": "Nenhuma lista pública de códigos de resgate de Abyssal Escape está documentada para o alfa atual. Verifique a conta social oficial de Abyssal Escape e os anúncios do Discord para qualquer sistema de código futuro ou evento de recompensa."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para escapar do abismo?",
+      "description": "Aprenda estratégias de sobrevivência, contra-ataque às habilidades dos assassinos, dissipe a névoa vermelha e chegue à saída com nossos guias gratuitos de Abyssal Escape.",
+      "primary": "Leia o guia para iniciantes",
+      "secondary": "Jogue em Roblox"
+    }
+  },
+  "characters": {
+    "overviewTitle": "Personagens de Abyssal Escape",
+    "overviewDescription": "Conheça a lista de Assassinos e os vasos de Sobrevivente de Abyssal Escape, com funções de habilidade, notas de estilo de jogo e orientações práticas de confronto."
+  },
+  "guide": {
+    "overviewTitle": "Guia de Abyssal Escape",
+    "overviewDescription": "Comece com dicas para iniciantes, orientações de funções, conjuntos de habilidades e estratégias práticas para Sobreviventes e Assassinos."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Abyssal Escape",
+    "overviewDescription": "Aprenda como a névoa vermelha, o cronômetro de fuga, as habilidades, a personalização dos vasos e as camadas do mapa moldam cada rodada."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de Abyssal Escape",
+    "overviewDescription": "Encontre o Discord, o Reddit, os testes de jogo e os recursos da comunidade de Abyssal Escape para jogadores que acompanham o alfa."
+  },
+  "updates": {
+    "overviewTitle": "Atualizações de Abyssal Escape",
+    "overviewDescription": "Acompanhe as datas de lançamento de Abyssal Escape, detalhes de acesso antecipado e as notas de atualização alfa mais recentes."
+  },
+  "reviews": {
+    "overviewTitle": "Análises de Abyssal Escape",
+    "overviewDescription": "Leia análises de Abyssal Escape, primeiras impressões, críticas e discussões de jogadores sobre o jogo de terror da Roblox."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação Wiki",
+    "activeCodes": "Códigos Ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todas as atualizações",
+    "playOnRoblox": "Jogue em Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximas etapas",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leitura Relacionada",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Leia mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Página inicial",
+    "noGuidesAvailable": "Nenhum guia disponível ainda. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "Abyssal Escape Wiki",
+    "about": "Abyssal Escape Wiki é um centro de guias independente criado por fãs que cobre estratégias de sobrevivência, habilidades de assassino, objetivos de névoa vermelha, rotas de fuga e atualizações alfa para jogadores da Roblox.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Jurídico",
+    "copyright": "2026 Abyssal Escape Wiki. Não afiliada aos desenvolvedores da Roblox ou de Abyssal Escape.",
+    "description": "Sobrevivência de terror assimétrica na Roblox. Dissipe a névoa vermelha, sobreviva ao assassino e escape.",
+    "playGame": "Jogue Abyssal Escape em Roblox",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Abyssal Escape Wiki",
+    "beginnerGuide": "Guia para iniciantes",
+    "raceGuides": "Guias de sobreviventes",
+    "bossGuides": "Guias de Assassinos",
+    "buildGuide": "Habilidades de assassino",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  }
+}
