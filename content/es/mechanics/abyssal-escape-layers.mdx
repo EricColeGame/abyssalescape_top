@@ -1,0 +1,105 @@
+export const metadata = {
+  title: "Capas de Abyssal Escape explicadas: cómo la mecánica de profundidad define cada partida",
+  description: "Un análisis práctico de las capas de Abyssal Escape: cómo funciona el apilamiento, cómo leer las señales visuales y cómo planificar una ruta que sobreviva a cada profundidad.",
+  category: "mechanics",
+  date: "2026-10-20",
+}
+
+## ¿Qué son las capas de Abyssal Escape?
+
+Pocas mecánicas cambian tanto tu forma de leer una sala como la manera en que **las capas de Abyssal Escape** apilan una escena. Todo —líneas de visión, colocación de peligros, señales sonoras y tu ruta de escape— está construido en capas de profundidad en lugar de sobre un único plano. Si alguna vez un pasillo pareció seguro un segundo y letal al siguiente, **las capas de Abyssal Escape** suelen ser la razón.
+
+El desarrollador lo ha mostrado directamente. En un clip corto, el equipo exhibió un conjunto de capas funcionando junto a un pequeño visualizador, lo que indica que el apilamiento es algo que ajustan y muestran a propósito, y no un detalle oculto del motor. Los reportes de la comunidad describen el resultado de la misma forma: las salas se sienten más profundas que su geometría, y notas el movimiento detrás de una pared antes de notar la pared.
+
+Ese es justamente el punto. El orden de las capas decide qué puedes ver y, más importante aún, qué puede verte a ti.
+
+| Capa | Qué contiene | Por qué te importa |
+|---|---|---|
+| Profundidad de fondo | Geometría lejana, siluetas, skybox | Te dice dónde termina realmente una sala |
+| Plano medio jugable | Suelos, paredes, objetos, peligros | Donde viven las colisiones y las interacciones |
+| Superposición en primer plano | Objetos entre la cámara y tu personaje | Puede ocultar amenazas *y* salidas |
+| Capa de efectos | Distorsión visual, destellos, VFX de habilidades | Señala peligro y estados de habilidades |
+| Capa de audio | Bucles ambientales, stingers, señales posicionales | Suele ser tu primera advertencia |
+
+Si eres nuevo en la plataforma, conviene recordar que estas creaciones funcionan en [la plataforma oficial de Roblox](https://www.roblox.com/), donde el renderizado por capas y el trabajo de cámara son herramientas estándar que los desarrolladores usan para generar tensión.
+
+## Cómo el apilamiento de capas cambia tu forma de jugar
+
+La etiqueta de la comunidad más asociada al proyecto es "asimétrico", y el diseño por capas es una gran parte de por qué. Cuando un bando de la partida caza y el otro huye, la profundidad se convierte en información. Un cazador que entiende el apilamiento puede rastrearte mediante las siluetas del fondo. Un superviviente que lo entiende puede romper la línea de visión usando las superposiciones del primer plano en lugar de depender de la velocidad.
+
+Los avances de desarrollo hacen visible el apilamiento de otras formas también. Se añadió una cámara dedicada a una sección de estilo vuelo para que la secuencia se leyera con más claridad: una decisión de capa de cámara, no de jugabilidad. Los avances de habilidades, como el efecto de flotación psíquica, se señalan explícitamente como con trabajo sonoro y visual aún en curso, otro recordatorio de que las capas de efectos se ajustan tarde.
+
+De eso se desprenden tres cosas:
+
+- **La profundidad es un recurso.** El jugador que la lee más rápido obtiene la primera decisión útil.
+- **La oclusión es un arma.** Los objetos en primer plano cortan en ambos sentidos: te ocultan, pero también te ocultan las amenazas.
+- **El audio llega antes que lo visual.** Los stingers y los cambios ambientales suelen dispararse antes de que la capa de efectos se ponga al día.
+
+## Leer las señales visuales a través de las capas de Abyssal Escape
+
+El techo de habilidad aquí no es el tiempo de reacción: es la interpretación. La mayoría de las muertes en salas por capas vienen de malinterpretar una señal, no de fallar al reaccionar a una. Abajo tienes una tabla de traducción práctica que puedes repasar en los primeros segundos de cualquier espacio nuevo.
+
+| Señal | Qué suele significar | Respuesta segura |
+|---|---|---|
+| Una silueta se desplaza detrás de la geometría | Movimiento en una capa más profunda | Detente, pégate a una pared, observa un compás más |
+| Un objeto bloquea la línea de visión de una puerta | Superposición en primer plano que te come la vista | Reposiciónate en lugar de empujar hacia delante |
+| Ondulación o distorsión en la superficie | Capa de efectos activa, probablemente una habilidad | Rompe la línea de visión de inmediato |
+| Stinger de audio sin visual todavía | La capa de audio se disparó antes | Retrocede hacia la última sala despejada |
+| La cámara salta a un ángulo fijo | Sección guionizada controlada por capas | Baja el ritmo y aprende el encuadre |
+
+Fíjate en que cuatro de esas cinco respuestas son *detenerse o reposicionarse*, no *correr*. Leer las capas premia más la paciencia que los reflejos, algo inusual para un formato de escape de terror y una gran parte de lo que hace que este se sienta diferente.
+
+Los reportes de experiencia de jugadores también sugieren que las capas de efectos se apilan unas sobre otras durante el uso de habilidades, lo que puede diluir las señales en las que te apoyas. Si una pantalla se ve cargada, trata el ruido mismo como una advertencia en lugar de como un obstáculo que atravesar.
+
+## Un plan de ruta práctico capa por capa
+
+No necesitas una memoria perfecta de cada sala para jugar bien en espacios por capas. Necesitas una rutina repetible. La secuencia de abajo funciona tanto si estás aprendiendo una zona nueva como si atraviesas una que ya has corrido una docena de veces.
+
+| Paso | Acción | Objetivo |
+|---|---|---|
+| 1 | Entra y haz una pausa breve | Deja que las capas de la sala se asienten antes de comprometerte |
+| 2 | Escanea el fondo primero | Identifica qué se mueve antes de que esté cerca |
+| 3 | Revisa el primer plano en busca de oclusores | Encuentra líneas de visión en las que puedas confiar de verdad |
+| 4 | Escucha antes de moverte | Recoge la advertencia que lo visual aún no te ha dado |
+| 5 | Elige tu línea y tu salida | Evita volver a decidir en mitad de la persecución |
+
+Dos hábitos hacen que esa rutina se quede. Primero, juega con auriculares: la capa de audio lleva información que el render no. Segundo, prueba las habilidades que no conozcas en salas abiertas y con pocas capas, donde el apilamiento no oculte las señales. La flotación psíquica, por ejemplo, es mucho más fácil de aprender en un espacio amplio que en un pasillo donde tres capas de efectos ya se pelean por los mismos píxeles.
+
+| Situación | Capa prioritaria | Por qué |
+|---|---|---|
+| Partida en solitario | Primer plano + audio | Ningún compañero vigila las capas que tú ignoras |
+| Partida en grupo | Efectos + fondo | La atención se divide, así que asignad roles en voz alta |
+| Aprender una zona nueva | Fondo primero | Entiende el diseño antes de buscar velocidad |
+| Ser perseguido | Primer plano | Rompe líneas de visión, no distancias |
+
+## Errores comunes con las capas de Abyssal Escape
+
+La mayor parte de la frustración con **las capas de Abyssal Escape** se remonta a un puñado de hábitos. La buena noticia es que todos se pueden corregir en una sola sesión.
+
+| Error | Síntoma | Solución |
+|---|---|---|
+| Tratar la sala como si fuera plana | Sorpresas constantes desde detrás de objetos | Lee la profundidad antes de interactuar |
+| Correr por salas cargadas de superposiciones | Líneas de visión recortadas, esquinas ciegas | Camina, pégate a las paredes, mira más allá del primer plano |
+| Ignorar el audio | Los efectos te alcanzan antes de que reacciones | Auriculares, siempre |
+| Volver a decidir a mitad de ruta | Dudas en las puertas | Comprométete con una línea antes de entrar |
+| Practicar habilidades en capas saturadas | No puedes leer la señal | Entrena primero en espacio abierto |
+
+El cuarto es el traicionero. Dudar en un umbral casi siempre es un fallo de lectura de capas, no de valentía: entraste sin decidir, así que la sala decidió por ti.
+
+Los reportes de la comunidad también señalan un problema más sutil: los jugadores que aprenden una sala mientras aún está en desarrollo suelen seguir usando señales visuales obsoletas después de que se revisen las capas de efectos. Si una sección de repente se siente mal, asume que las capas cambiaron antes de asumir que tu habilidad cambió.
+
+## Preguntas frecuentes
+
+**¿Las capas de Abyssal Escape afectan a la jugabilidad o solo a lo visual?**
+A ambas. El apilamiento controla qué puedes ver, qué puede verte y cuándo llegan las advertencias de audio. El pulido visual y la información de jugabilidad se entregan a través del mismo sistema, y por eso leerlo compensa.
+
+**¿Cuántas capas debería seguir a la vez?**
+Siendo realistas, dos. El fondo y el primer plano cubren la mayoría de las decisiones; las capas de efectos y de audio te avisan de cuándo algo está a punto de cambiar. Intentar seguir las cinco a la vez es como los jugadores se bloquean.
+
+**¿Por qué una sala a veces se ve distinta entre partidas?**
+Las versiones de desarrollo se revisan, y las capas de efectos suelen ser lo último que se ajusta. Los reportes de experiencia de jugadores señalan que el trabajo sonoro y visual a veces sigue explícitamente en curso, así que trata las señales visuales como actuales y no como permanentes.
+
+**¿Cuál es la forma más rápida de mejorar leyendo las capas de Abyssal Escape?**
+Baja el ritmo durante una sesión. Haz una pausa en cada umbral, escanea el fondo y luego el primer plano, y escucha antes de moverte. La rutina se siente tediosa durante unos diez minutos y después se vuelve automática.
+
+El orden de las capas no es un detalle que se supera: es la mecánica sobre la que está construido el resto del juego. Aprende a leer el apilamiento y el mapa deja de ser un laberinto de sorpresas y empieza a ser un conjunto de decisiones que tú tomas primero.

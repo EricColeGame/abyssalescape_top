@@ -6,7 +6,14 @@
     "description": "Explore Abyssal Escape, the Roblox asymmetrical horror game. Learn survivor strategies, killer abilities, red mist objectives, and escape tactics.",
     "legalNotice": "Non-official fan wiki. Not affiliated with Roblox or the Abyssal Escape developers."
   },
-  "nav": {},
+  "nav": {
+    "characters": "Characters",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "community": "Community",
+    "updates": "Updates",
+    "reviews": "Reviews"
+  },
   "home": {
     "meta": {
       "title": "Abyssal Escape Wiki - Guides, Killers & Survivors",
@@ -374,12 +381,35 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "characters": {
+    "overviewTitle": "Abyssal Escape Characters",
+    "overviewDescription": "Meet the Abyssal Escape Killer roster and Survivor vessels, with ability roles, playstyle notes, and practical matchup guidance."
+  },
+  "guide": {
+    "overviewTitle": "Abyssal Escape Guide",
+    "overviewDescription": "Start with beginner tips, role walkthroughs, ability loadouts, and practical strategies for Survivors and Killers."
+  },
+  "mechanics": {
+    "overviewTitle": "Abyssal Escape Mechanics",
+    "overviewDescription": "Learn how red mist, the escape timer, abilities, vessel customization, and map layers shape every round."
+  },
+  "community": {
+    "overviewTitle": "Abyssal Escape Community",
+    "overviewDescription": "Find Abyssal Escape Discord, Reddit, playtest, and community resources for players following the alpha."
+  },
+  "updates": {
+    "overviewTitle": "Abyssal Escape Updates",
+    "overviewDescription": "Track Abyssal Escape release dates, early access details, and the latest alpha update notes."
+  },
+  "reviews": {
+    "overviewTitle": "Abyssal Escape Reviews",
+    "overviewDescription": "Read Abyssal Escape reviews, first impressions, criticism, and player discussion of the Roblox horror game."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
+    "viewAllCodes": "View all updates",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
