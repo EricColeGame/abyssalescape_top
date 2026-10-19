@@ -39,22 +39,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn how Survivors clear red mist, how Killers interrupt objectives, and why the escape ring decides every round."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Starter Killer",
+          "description": "Read the selection screen, choose a forgiving chase archetype, and build strong habits with 2011x or another straightforward Killer."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "All Abilities",
+          "description": "Compare mobility, stealth, support, objective, and disruption tools, then pair two abilities that cover each other's weaknesses."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Abyssal Escape."
+          "title": "Killer Phase Timing",
+          "description": "Rotate before the eight- and six-minute power spikes, then save a mobility charge for the final 60-second ring dash."
         }
       ]
     },
@@ -62,265 +62,308 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Killer Roster",
+        "Ability Roles",
+        "Escape Ring Tips"
       ],
-      "cards": [
-        {
-          "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
-        },
-        {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
-        }
-      ]
+      "cards": []
     },
     "aboutGame": {
       "title": "What is Abyssal Escape?",
       "paragraphs": [
-        "Abyssal Escape is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Abyssal Escape is a Roblox asymmetrical horror game in which a team of customizable Survivors works against a single Killer. Survivors dispel red mist across the map to shorten the escape timer, while the Killer uses a three-phase evolution path and role-specific abilities to interrupt that work before the escape ring appears.",
+        "Each Survivor vessel combines appearance with a two-ability loadout unlocked through rings earned in trials. Matches run on a ten-minute clock: mist nodes remove roughly 40 to 50 seconds, Killer power spikes arrive around the eight- and six-minute marks, and the highlighted escape ring opens the only Survivor win condition at the final minute."
       ],
       "stats": [
-        {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
         {
           "label": "Platform",
           "value": "Roblox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Asymmetrical Horror"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Status",
+          "value": "Alpha"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Release Date",
+          "value": "Oct 17, 2026"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Match Format",
+          "value": "1 vs All"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Round Timer",
+          "value": "10 Minutes"
         }
       ],
-      "cta": "Explore All Guides"
+      "cta": "Read the Beginner Guide"
     },
     "explore": {
       "title": "Explore Abyssal Escape Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Plan your first escape with Abyssal Escape guides to the beginner loop, Killer roster, Survivor loadouts, red mist routing, and alpha updates.",
       "modules": [
         {
           "order": 1,
-          "name": "Abyssal Escape Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/abyssal-escape-codes",
-          "displayType": "code-box",
+          "name": "Abyssal Escape Beginner Guide",
+          "description": "Learn the core round loop, Survivor and Killer roles, red mist objectives, and escape timer mechanics before your first match.",
+          "href": "/guide/abyssal-escape-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Build a Survivor around one clear job, then use the second ability slot to cover a different failure state."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Dispel red mist to shorten the escape timer; staying hidden does not move the clock."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Before holding an interaction, choose the exit route you will take when the Killer arrives."
+            },
+            {
+              "label": "4",
+              "detail": "Treat the final minute as ring time: stop mist work and commit to the highlighted escape path."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/abyssal-escape-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Abyssal Escape Killers",
+          "description": "Compare the launch Killer roster, their signature threats, evolution phases, and the playstyle each one rewards.",
+          "href": "/characters",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "2011x",
+              "detail": "Straight-line chase pressure with a powerful late-phase scaling curve."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Furnace",
+              "detail": "Heat-driven flamethrowers and thruster flight control space and corridors."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Deity",
+              "detail": "Ring traps, decoys, and Phase 3 flight reward careful map reads."
+            },
+            {
+              "label": "Fleetway",
+              "detail": "Aerial detection and long-range laser pressure punish open escape routes."
+            },
+            {
+              "label": "Innocence",
+              "detail": "A transforming, dash-heavy moveset pressures Survivors after the mid-round shift."
+            },
+            {
+              "label": "2017X",
+              "detail": "A Phase 3 beast form adds heavy slam damage to an already aggressive kit."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/abyssal-escape-tier-list",
-          "displayType": "tier-grid",
+          "name": "Abyssal Escape Survivor Guide",
+          "description": "Cover Survivor customization, two-ability loadouts, teamwork, mist routing, and the final escape ring.",
+          "href": "/guide/abyssal-escape-survivor-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "1",
+              "detail": "Create a custom vessel and equip two abilities; pair one escape tool with one team tool."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "2",
+              "detail": "Scout mist clusters in pairs so one player can watch the approach lane while the other clears."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "3",
+              "detail": "Rotate away from the Killer's last known position and finish started nodes before opening new ones."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "4",
+              "detail": "Save mobility for the final ring dash and treat the two-minute mark as your soft rotation deadline."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/abyssal-escape-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Abyssal Escape Killer Tier List",
+          "description": "A starter-focused ranking of Killer archetypes by ease of learning, chase reliability, and recovery from mistakes.",
+          "href": "/guide/abyssal-escape-best-starter-killer",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Straightforward chase kits teach loops, timing, and commitment with the fewest moving parts."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Area-control kits forgive imperfect aim and reward consistent map pressure."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Ambush and stealth kits reward patience but punish early detection and missed setup."
+            },
+            {
+              "label": "C",
+              "detail": "Multi-phase and setup-heavy kits demand timing and map knowledge before they feel reliable."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/abyssal-escape-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Abyssal Escape Codes",
+          "description": "Check redemption-code status and learn where official Abyssal Escape rewards are announced during the alpha.",
+          "href": "/guide",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Status",
+              "detail": "No public redemption code list is documented for the current alpha."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Codes",
+              "detail": "Use the official Abyssal Escape social account and Discord announcements as the source for future codes."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Rewards",
+              "detail": "Confirm any announced reward in the live game before treating a third-party list as active."
+            },
+            {
+              "label": "Redeem",
+              "detail": "When a code system is announced, follow the in-game redemption instructions shown to players."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/abyssal-escape-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Abyssal Escape Abilities",
+          "description": "Understand Survivor ability roles, two-slot loadout rules, cooldown discipline, and team composition.",
+          "href": "/mechanics/abyssal-escape-abilities",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Mobility",
+              "detail": "Close distance, break a chase, or reach the escape ring before the timer expires."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Stealth",
+              "detail": "Reduce detection and reposition quietly while the team works on red mist."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Support",
+              "detail": "Heal, revive faster, shield, or share resources when the team stays together."
+            },
+            {
+              "label": "Objective",
+              "detail": "Speed up interactions and help the team finish mist work under time pressure."
+            },
+            {
+              "label": "Disrupt",
+              "detail": "Use decoys, noise, or temporary blocks to pull pressure off a teammate."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Abyssal Escape Updates",
+          "description": "Track alpha announcements, new content, balance changes, fixes, and the channels where each update appears.",
+          "href": "/updates/abyssal-escape-latest-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Official",
+              "detail": "Follow the official account for clips, pinned notices, and short patch announcements."
+            },
+            {
+              "label": "Discord",
+              "detail": "Check announcement and bug channels for longer explanations and known issues."
+            },
+            {
+              "label": "Relaunch",
+              "detail": "Close and reopen the Roblox experience after an update to rule out a stale session."
+            },
+            {
+              "label": "Verify",
+              "detail": "Test the headline change in one short session before relying on a community report."
+            },
+            {
+              "label": "Notes",
+              "detail": "Record what changed and when so later balance passes do not blur the timeline."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Abyssal Escape Tips and Strategies",
+          "description": "Apply practical Survivor and Killer advice for mist routing, chase timing, loadouts, and the final escape ring.",
+          "href": "/guide/abyssal-escape-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Scout",
+              "detail": "Spend the opening seconds locating mist clusters before committing to a route."
+            },
+            {
+              "label": "Pair Up",
+              "detail": "Clear nodes in pairs so one Survivor can watch the approach lane."
+            },
+            {
+              "label": "Finish",
+              "detail": "A partial mist node removes no time, so return to finish what you started."
+            },
+            {
+              "label": "Rotate",
+              "detail": "Move away from the Killer's last known position instead of clearing nearby nodes."
+            },
+            {
+              "label": "Ring",
+              "detail": "At one minute remaining, abandon mist work and run the highlighted escape ring."
+            },
+            {
+              "label": "Stamina",
+              "detail": "Running regenerates stamina; ability activations and maneuvers are the real costs."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "Abyssal Escape FAQ",
       "description": "Quick answers to the most common questions about Abyssal Escape.",
       "items": [
         {
           "question": "What is Abyssal Escape?",
-          "answer": "Abyssal Escape is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Abyssal Escape is a Roblox asymmetrical horror game where customizable Survivors work together against one Killer. The Survivors clear red mist to shorten the escape timer, while the Killer evolves through three phases and tries to stop them before the escape ring opens."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "What do Survivors do in Abyssal Escape?",
+          "answer": "Survivors scout the map, clear red mist nodes in pairs, and rotate away from the Killer. Each fully cleared node removes roughly 40 to 50 seconds from the Abyssal Escape round clock."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How long is an Abyssal Escape match?",
+          "answer": "An Abyssal Escape round starts with a ten-minute timer. Killer power spikes arrive around eight and six minutes remaining, and the escape ring appears during the final minute."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How many abilities can a Survivor equip in Abyssal Escape?",
+          "answer": "A Survivor vessel in Abyssal Escape can equip two abilities unlocked with rings earned across trials. Equipping two stun-focused abilities cuts the stun duration of both by 50 percent, so most builds pair one stun with mobility or utility."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "When does the escape ring appear in Abyssal Escape?",
+          "answer": "The highlighted escape ring appears with 60 seconds remaining in Abyssal Escape. Survivors should stop clearing mist at that point and commit to the ring, because entering it is the only Survivor win condition."
+        },
+        {
+          "question": "How do Killers evolve in Abyssal Escape?",
+          "answer": "Abyssal Escape Killers gain their first major power spike around eight minutes remaining and reach Phase 3 around six minutes remaining. Those phases can add upgraded chase tools, speed boosts, flight, or complete moveset transformations."
+        },
+        {
+          "question": "Does Abyssal Escape have redemption codes?",
+          "answer": "No public Abyssal Escape redemption code list is documented for the current alpha. Check the official Abyssal Escape social account and Discord announcements for any future code system or reward event."
         }
       ]
     },
